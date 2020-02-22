@@ -1,0 +1,2 @@
+# Singolo
+task Singolo
