@@ -1,2 +1,1 @@
-# Singolo
-task Singolo
+https://ZamaraevDmitriy.github.io/Singolo/
