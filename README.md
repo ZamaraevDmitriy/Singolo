@@ -1,1 +1,1 @@
-https://ZamaraevDmitriy.github.io/Singolo/
+ZamaraevDmitriy.github.io/Singolo/
