@@ -4,6 +4,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html {
+     scroll-behavior: smooth;
+}
+
 body {
      margin: 0;
 }
@@ -20,6 +24,13 @@ body {
 .header {
      background-color: #2d303a;
      border-bottom: 6px solid #323746;
+     position: sticky;
+     top: 0;
+     z-index: 3;
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+     transition: all 0.3s ease;
 }
 
 .header-inner {
@@ -47,7 +58,7 @@ body {
 .header-menu {
      display: flex; 
      flex-direction: row; 
-     justify-content: flex-start; 
+     justify-content: flex-start;
 }
 
 .navigation__item {
@@ -77,6 +88,10 @@ body {
 
 .navigation__link:hover {
      color: #f06c64;
+}
+
+.navigation_active {
+     color: aqua;
 }
 
         /* SLIDER */
