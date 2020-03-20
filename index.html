@@ -7,8 +7,7 @@
     <title>Singolo</title>
 </head>
 <body>
-    
-     <header class="header">
+     <header class="header" id="home">
             <div class="wrapper">
                 <div class="header-inner">
                     <div class="logo">
@@ -17,11 +16,11 @@
                     <div class="header__navigation">
                         <nav>
                             <ul class="header-menu">
-                                <li class="navigation__item"><a class="navigation__link" href="#">HOME</a></li>
-                                <li class="navigation__item"><a class="navigation__link" href="#">SERVICES</a></li>
-                                <li class="navigation__item"><a class="navigation__link" href="#">PORTFOLIO</a></li>
-                                <li class="navigation__item"><a class="navigation__link" href="#">ABOUT</a></li>
-                                <li class="navigation__item"><a class="navigation__link" href="#">CONTACT</a></li>
+                                <li class="navigation__item"><a class="navigation__link navigation_active" href="#home">HOME</a></li>
+                                <li class="navigation__item"><a class="navigation__link" href="#services">SERVICES</a></li>
+                                <li class="navigation__item"><a class="navigation__link" href="#portfolio">PORTFOLIO</a></li>
+                                <li class="navigation__item"><a class="navigation__link" href="#about">ABOUT</a></li>
+                                <li class="navigation__item"><a class="navigation__link" href="#contact">CONTACT</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -44,8 +43,7 @@
                 </div>
             </div>
         </section>
-
-        <section class="services">
+        <section class="services" id="services">
             <div class="wrapper">
                 <h1 class="services__title"> Our Services</h1>
 
@@ -57,7 +55,7 @@
                 <div class="services-items">
 
                     <div class="services-item">
-                        <img class="services-item__icon" src="assets/img/pen.svg"width="59" height="59"  alt="Pen">
+                        <img class="services-item__icon" src="assets/img/pen.svg" width="59" height="59"  alt="Pen">
                         <div>
                             <h2 class="services-item__title">Custom Design</h2>
                             <p class="services-item__description">Curabitur vestibulum eget mauris quis laoreet.
@@ -114,7 +112,8 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+    
+        <section class="portfolio" id="portfolio">
             <div class="wrapper">
                 <h1 class="portfolio-title">Portfolio</h1>
                 <p class="portfolio-description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
@@ -140,7 +139,8 @@
                 </div>
             </div>
         </section>
-        <section class="about-us">
+        
+        <section class="about-us" id="about">
             <div class="wrapper">
                 <h1 class="about-title">About Us</h1>
                 <p class="about-us__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
@@ -160,7 +160,7 @@
                                   <img class="contacts__icon" src="assets/img/icon_twitter.svg" width="34" height="35" alt="Twitter">
                                 </div>
                                 <div>
-                                  <img class="contacts__icon" src="assets/img/icon_linkedin.svg" width="34" height="35" alt="LinkedIn">
+                                  <img class="contacts__icon" src="assets/img/icon_linkedIn.svg" width="34" height="35" alt="LinkedIn">
                                 </div>
                             </div>
                     </div>
@@ -179,7 +179,7 @@
                                 <img class="contacts__icon" src="assets/img/icon_twitter.svg" width="34" height="35" alt="Twitter">
                               </div>
                               <div>
-                                <img class="contacts__icon" src="assets/img/icon_linkedin.svg" width="34" height="35" alt="LinkedIn">
+                                <img class="contacts__icon" src="assets/img/icon_linkedIn.svg" width="34" height="35" alt="LinkedIn">
                               </div>
                         </div>
                     </div>
@@ -198,14 +198,15 @@
                                 <img class="contacts__icon" src="assets/img/icon_twitter.svg" width="34" height="35" alt="Twitter">
                               </div>
                               <div>
-                                <img class="contacts__icon" src="assets/img/icon_linkedin.svg" width="34" height="35" alt="LinkedIn">
+                                <img class="contacts__icon" src="assets/img/icon_linkedIn.svg" width="34" height="35" alt="LinkedIn">
                               </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="quote">
+    
+        <section class="quote" id="contact">
             <div class="wrapper">
                 <h1 class="title-quote">Get a Quote</h1>
                 <p class="description-quote">Fusce dapibus, tellus ac cursus commodo, 
@@ -250,6 +251,7 @@
         </div>
         </div>
     </footer>
+    <script src="script.js"> </script>
     
 </body>
 </html>
